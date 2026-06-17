@@ -775,6 +775,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 728684531428331073, guid: b70c543c4a64f6e4cae66ec571bb21cc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 881cf224a1fa191429cc97dfc366e773, type: 2}
+    - target: {fileID: 1020961139952690686, guid: b70c543c4a64f6e4cae66ec571bb21cc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2320e542442ce9245a0624e59da4d4ea, type: 2}
+    - target: {fileID: 3145200085587434636, guid: b70c543c4a64f6e4cae66ec571bb21cc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2320e542442ce9245a0624e59da4d4ea, type: 2}
     - target: {fileID: 4613635302499335798, guid: b70c543c4a64f6e4cae66ec571bb21cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.32852
@@ -819,6 +831,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: funguy
       objectReference: {fileID: 0}
+    - target: {fileID: 6087675553750479169, guid: b70c543c4a64f6e4cae66ec571bb21cc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2320e542442ce9245a0624e59da4d4ea, type: 2}
+    - target: {fileID: 6677426719408040072, guid: b70c543c4a64f6e4cae66ec571bb21cc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2320e542442ce9245a0624e59da4d4ea, type: 2}
+    - target: {fileID: 7737966391973175933, guid: b70c543c4a64f6e4cae66ec571bb21cc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2320e542442ce9245a0624e59da4d4ea, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
