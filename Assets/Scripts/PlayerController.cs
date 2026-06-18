@@ -11,14 +11,13 @@ public class PlayerController : MonoBehaviour
     public bool IsGrappleEnabled;
     public KeyCode GrappleButton;
     public GameObject OtherPlayer;
-
-    private bool HasWonGrapple;
+    public GameObject UIManager;
+    public char PlayerId;
 
     void Start()
     {
         IsMoveDisabled = false;
         IsGrappleEnabled = true;
-        HasWonGrapple = false;
     }
 
     // Update is called once per frame
@@ -41,12 +40,11 @@ public class PlayerController : MonoBehaviour
             {
                 IsMoveDisabled = true;
                 IsGrappleEnabled = false;
-                HasWonGrapple = true;
 
                 OtherPlayer.GetComponent<PlayerController>().IsMoveDisabled = true;
                 OtherPlayer.GetComponent<PlayerController>().IsGrappleEnabled = false;
 
-                // Trigger minigames
+                UIManager.GetComponent<UIManager>().StartMingames(PlayerId);
             }
         }
     }
