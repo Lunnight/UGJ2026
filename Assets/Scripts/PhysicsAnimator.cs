@@ -17,7 +17,9 @@ public class PhysicsAnimator : MonoBehaviour
         for (var i = 0; i < _bones.Length; i++)
         {
             if (_bones[i].TryGetComponent(out ConfigurableJoint configurableJoint))
+            {
                 _configurableJoints[_bones[i]] = configurableJoint;
+            }
                 _initialRotations[_bones[i]] = _bones[i].localRotation;
         }
     }
@@ -28,7 +30,7 @@ public class PhysicsAnimator : MonoBehaviour
         for (var i = 0; i < _bones.Length; i++)
         {
             _preAnimationRotations[_bones[i]] = _bones[i].localRotation;
-            _preAnimationPositions[_bones[i]] = _bones[i].position;
+            _preAnimationPositions[_bones[i]] = _bones[i].localPosition;
         }
     }
 
