@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2350add914f381b439a68c9a75bcc3e8
+guid: 58b92fce3dc0a5f4ca6f342567f4ee6a
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: FortressMaterial
-    second: {fileID: 2100000, guid: b5e2d455251162447944b96a33cfd67f, type: 2}
+      name: Material.001
+    second: {fileID: 2100000, guid: a12e66dff6d6b6d4c9e890796bddb8de, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -76,9 +76,9 @@ ModelImporter:
     useFileScale: 1
     strictVertexDataChecks: 0
   tangentSpace:
-    normalSmoothAngle: 163
+    normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 2
+    tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
@@ -96,7 +96,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.5
+    globalScale: 0.005
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
